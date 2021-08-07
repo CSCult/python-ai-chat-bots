@@ -1,0 +1,32 @@
+{"intents":  [
+  {"tag":  "greetings",
+  "patterns":  ["Hello","Hey"," Whats Up","Hi there"],
+  "responses": ["Hello","Hi","Good to see you","What can I do for you?","Whats Up!"]
+  },
+
+  {"tag":  "name",
+  "patterns":  ["What is your name", "Who are you", "What's your name", "What should I call you", "Can you tell me your name"],
+  "responses": ["I'm Neon", "My name is Neon", "You can call me Neon", "I'm Neon, the customer service assistant of the company"]
+  },
+
+  {"tag":  "shop",
+  "patterns":  ["I want to buy something", "What your products", "What do you recommend", "What type of products does your company sell"],
+  "responses": ["We sell various types of products like electical appliances, mobile phones, T.V.,cosmetics, sports equipments, clothes, video games and many other kind of products."]
+  },
+
+  {"tag":  "hours",
+  "patterns":  ["What are your shopping hours", "When you guys open", "At what time i can purchase from you", "What are your timings"],
+  "responses": ["24/7", "You can buy at anytime you like, we all will be there to help you"]
+  },
+
+  {"tag":  "complain",
+  "patterns":  ["I got the wrong product", "I didn't get the product that i purchased", "The product that i ordered is not the same that i saw on your store", "I got a faulty product", "I got a defective product"],
+  "responses": ["We're very sorry for the inconvinence", "We're very sorry, next time we'll take care of that"]
+  },
+
+  {"tag":  "goodbye",
+  "patterns":  ["Goodbye","See you later"," Have a good day","Bye","I take my leave"," see you"],
+  "responses": ["Sad to see you leave","Goodbye!, take care","Okay, It was nice to meet you","Okay Bye, I hope you liked my service"]
+  }
+]}
+
