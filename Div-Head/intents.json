@@ -1,0 +1,29 @@
+{"intents":[
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "how are you?", "good day", "Greetings", "what's up", "how is it going?"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["See you later", "Goodbye", "I am leaving", "Have a Good day", "bye", "Greetings", "see ya", "Bbye"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {"tag": "name",
+    "patterns": ["What is your name", "What should I call you", "whats your name?", "who are you?", "Can you tell me about yourself?"],
+    "responses": ["You can call me Mike, I'm a bot.", "I'm Mike", "I'm Mike the assistant of Mihir!"]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "I am feeling bored", "Joke please", "Make me laugh", "I want to laugh"],
+        "responses": ["Here's a joke to lighten your mood \nMy roommate and I are ordering some Chinese food for delivery. \nShe asks 'what's a good tip for a delivery driver'\nI reply 'always wear a seat belt'\nShe won't talk to me now.", "Guy staring at an ambulance in front of Whole Foods:\n “Somebody must have accidentally eaten gluten.", "What has T in the beginning, T in the middle, and T at the end? \n- A teapot."]
+    }
+]}
